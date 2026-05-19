@@ -1,0 +1,51 @@
+{
+  "name": "@pathum2583-eng/utility-apps",
+  "version": "1.0.0",
+  "description": "A collection of utility applications including Joke Generator and To-Do List with Local Storage",
+  "main": "joke-generator.js",
+  "scripts": {
+    "start": "node joke-generator.js",
+    "test": "node test-jokes.js",
+    "dev": "node -e \"const app = require('./joke-generator'); app.getMultipleJokes(5, 'programming')\"",
+    "todo": "echo 'Open todo-app.html in your browser to use the To-Do List application'"
+  },
+  "keywords": [
+    "joke",
+    "generator",
+    "api",
+    "todo",
+    "list",
+    "local-storage",
+    "web-app",
+    "utility"
+  ],
+  "author": "pathum2583-eng",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pathum2583-eng/Meta.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pathum2583-eng/Meta/issues"
+  },
+  "homepage": "https://github.com/pathum2583-eng/Meta#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "joke-generator.js",
+    "test-jokes.js",
+    "todo-app.html",
+    "todo-app.js",
+    "README.md",
+    "JOKE-GENERATOR-README.md",
+    "TODO-APP-README.md",
+    "LICENSE"
+  ],
+  "categories": [
+    "Utilities",
+    "Web Applications",
+    "Entertainment",
+    "Productivity"
+  ]
+}
