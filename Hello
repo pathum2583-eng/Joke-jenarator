@@ -1,0 +1,26 @@
+# 1. Start a new project or clone an existing one
+git init
+# OR
+git clone https://github.com/user/repo.git
+cd repo
+
+# 2. Make changes to your files
+echo "Hello World" > hello.js
+
+# 3. Check the status
+git status
+# Output shows hello.js as untracked
+
+# 4. Stage your changes
+git add hello.js
+# OR add everything
+git add .
+
+# 5. Commit your changes
+git commit -m "Add hello world script"
+
+# 6. Push to remote repository
+git push origin main
+
+# 7. Pull latest changes from team members
+git pull origin main
