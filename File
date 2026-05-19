@@ -1,0 +1,8 @@
+# Add a specific file
+git add <https://developers.facebook.com/docs/php>
+
+# Add all changes
+git add .
+
+# Add all changes interactively
+git add -p
