@@ -1,0 +1,12 @@
+
+## 📊 Local Storage Details
+
+### Data Structure
+Each task is stored as an object:
+```javascript
+{
+  id: 1234567890,           // Unique identifier (timestamp)
+  text: "Buy groceries",    // Task description
+  completed: false,         // Completion status
+  createdAt: "5/19/2026..." // Creation timestamp
+}
