@@ -1,0 +1,1 @@
+CommandPurposegit initInitialize a new repositorygit clone <url>Copy a remote repositorygit statusView repository statusgit add <file>Stage changes for commitgit commit -m "msg"Save changes with messagegit push <remote> <branch>Upload changes to remotegit pull <remote> <branch>Download changes from remote
